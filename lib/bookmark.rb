@@ -1,7 +1,11 @@
-require 'database_connection'
+require 'pg'
 class Bookmark
   
   def self.all
-    result = DatabaseConnection.query('INSERT INTO bookmarks (url) VALUES( "http://www.whufc.com");')
+    connection = PG.connect(dbname: 'bookmark_manager')
+    result = connection.exec("SELECT * FROM bookmarks;")
+    result.map { |bookmark| bookmark['bookmark'] }
+
   end
 end
+ 
