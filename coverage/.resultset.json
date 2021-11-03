@@ -1,6 +1,17 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/sdonova3/Makers/bookmark_challenge/spec/setup_test_database.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1
+        ]
+      },
       "/Users/sdonova3/Makers/bookmark_challenge/app.rb": {
         "lines": [
           1,
@@ -40,7 +51,7 @@
           null,
           null,
           2,
-          26,
+          14,
           null,
           null,
           null,
@@ -49,6 +60,7 @@
       },
       "/Users/sdonova3/Makers/bookmark_challenge/spec/bookmark_spec.rb": {
         "lines": [
+          1,
           1,
           null,
           1,
@@ -75,6 +87,18 @@
         "lines": [
           1,
           1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
           1,
           1,
           null,
@@ -94,6 +118,6 @@
         ]
       }
     },
-    "timestamp": 1635956938
+    "timestamp": 1635960597
   }
 }
